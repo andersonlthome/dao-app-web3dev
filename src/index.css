@@ -4,7 +4,9 @@ body {
   font-family: roboto, arial, helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #7700ee;
+  /* background-color: #7700ee; */
+  background-repeat: no-repeat;
+  background-size: cover;
   background-image: url("../scripts/assets/dancefloor.webp");
   color: #fff;
   overflow-x: hidden;
@@ -16,7 +18,16 @@ body {
 
 h1 {
   font-size: 5rem;
-  -webkit-text-stroke: 1px #7700ee;
+  /* -webkit-text-stroke: 1px #7700ee; */
+
+  font-weight: 600;
+  text-transform: uppercase;
+  /* Warning: no fallback */
+  
+  background: -webkit-linear-gradient(-86deg, #7700ee 5%, #5eaaf2 53%, #c409e5 91%);
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 6px transparent;
+  color: white;
 }
 @media screen and (max-width: 768px) {
   h1 {

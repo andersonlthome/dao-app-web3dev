@@ -203,7 +203,7 @@ const App = () => {
   if (!address) {
     return (
       <div className="landing">
-        <h1>Bem-vind@s à PartyDAO a DAO dos rolezeiros</h1>
+        <h1>Bem-vind@s à PartyDAO<br/> a DAO dos clubbers</h1>
         <button onClick={connectWithMetamask} className="btn-hero">
           Conecte sua carteira
         </button>
@@ -214,7 +214,7 @@ const App = () => {
   if (hasClaimedNFT) {
     return (
       <div className="member-page">
-        <h1>Membros da DAO o//</h1>
+        <h1>Membros da DAO</h1>
         <p>Parabéns por fazer parte desse clube!</p>
         <div>
           <div>
